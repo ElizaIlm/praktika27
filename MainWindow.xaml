@@ -13,7 +13,7 @@
                 <DropShadowEffect Direction="270" BlurRadius="5" ShadowDepth="2" Opacity="0.5"/>
             </Grid.Effect>
             <Label Content="Вещи для дома" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="15pt"/>
-            <Image Width="30" Height="30" Margin="10" VerticalAlignment="Top" HorizontalAlignment="Left" Source=""/>
+            <Image Width="30" Height="30" Margin="10" VerticalAlignment="Top" HorizontalAlignment="Left" /><!--Source=""-->   
         </Grid>
     </Grid>
 </Window>
