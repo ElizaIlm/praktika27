@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace praktika27.ViewModell
 {
-    public class VMCategories : INotifyPropertyChanged
+    public class VMCategorys : INotifyPropertyChanged
     {
-        public ObservableCollection<Context.CategoriesContext> Categories { get; set; }
-        public VMCategories() =>
-            Categories = Context.CategoriesContext.AllCategories();
+        public ObservableCollection<Context.CategorysContext> Categorys { get; set; }
+        public VMCategorys() =>
+            Categorys = Context.CategorysContext.AllCategorys();
 
         public event PropertyChangedEventHandler PropertyChanged;
         public void OnPropertyChanged([CallerMemberName] string prop = "")
